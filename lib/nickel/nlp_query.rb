@@ -30,7 +30,6 @@ module Nickel
       standardize_months
       standardize_numbers
       standardize_am_pm
-      replace_hyphens
       insert_repeats_before_words_indicating_recurrence_lame
       insert_space_at_end_of_string_lame
       @after_formatting = query_str.dup    # save current state
